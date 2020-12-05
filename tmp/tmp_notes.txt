@@ -1,1 +1,5 @@
-Here will be temporary files.
+Suggestions:
+- git ignore system files, like .DS_Store
+- bibliography
+- boasting a database with an API and possibility to update data;
+- tables and figures in report and slides
