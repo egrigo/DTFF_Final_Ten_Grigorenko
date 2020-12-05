@@ -9,3 +9,4 @@ Final Project
 
 15. December 2020
 
+The description of the project can be found in /text/slides.pdf
