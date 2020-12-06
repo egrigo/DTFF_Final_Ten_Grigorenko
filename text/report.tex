@@ -1,13 +1,20 @@
 \documentclass [a4paper, 11pt] {article}
+\setlength\parindent{0pt}
+
+
 \usepackage{amsmath}
 
 \usepackage{blindtext}
 
-\setlength\parindent{0pt}
+% bibliography
+\usepackage [style=bwl-FU, url=false, eprint=false]{biblatex}
+\addbibresource{biblio.bib}
+
+\setcounter{secnumdepth}{0}
 
 
 \begin{document}
-
+% title description 
 \title {\Huge Final Project \\
  \Huge Digital Tools for Finance }
 \author {\huge Elena Ten 19-765-395, \\
@@ -15,26 +22,39 @@
 
 \date {\huge 10.12.2020}
 
+
+
+% create title
 \maketitle
 \thispagestyle{empty}
+
 \newpage
 
-\section *{Introduction}
+\tableofcontents
+
+\newpage
+
+\section {Introduction}
 This report is aimed on the estimation of the cost of capital of the main players of the oil industry.\\
 The first part of the report gives a brief overview of main market characteristics of oil stocks.\\
 The second part of the report is dedicated to the estimation of the cost of capital.
 
-\section *{Overview of Market Data}
+\section {Overview of Market Data}
 
-\section *{Cost of Capital}
-\subsection *{Methodology}
-\subsection *{Beta estimation}
-\subsection *{Risk-free rate}
-\subsection *{Cost of Equity}
-\subsection *{Cost of Debt}
-\subsection *{Leverage Structure}
-\subsection *{Findings and Conclusion}
+\section {Cost of Capital}
+\subsection {Methodology}
+
+According to \cite{DamodaranDark} and \cite{BestPract}
 
 
+\subsection {Beta estimation}
+\subsection {Risk-free rate}
+\subsection {Cost of Equity}
+\subsection {Cost of Debt}
+\subsection {Leverage Structure}
+\subsection {Findings and Conclusion}
+
+\newpage
+\printbibliography [heading=bibintoc]
 
 \end{document}
