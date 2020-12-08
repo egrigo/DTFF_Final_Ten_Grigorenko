@@ -15,5 +15,5 @@ R-shiny app can be launched via:
 
 ```
 library(shiny)
-runGitHub("DTFF_Final_Ten_Grigorenko", "egrigo", subdir = "inst/r-shiny/")
+runGitHub("DTFF_Final_Ten_Grigorenko", "egrigo", subdir = "/r-shiny/")
 ```
