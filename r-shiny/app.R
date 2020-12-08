@@ -56,7 +56,7 @@ server <- function(input, output) {
     
     # change directory
     current_path = rstudioapi::getActiveDocumentContext()$path 
-    setwd(dirname(current_path ))
+  #  setwd(dirname(current_path ))
     setwd("..")
     setwd("./data")
     
