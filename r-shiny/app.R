@@ -1,5 +1,4 @@
 rm(list=ls())
-dev.off()
 
 library(shiny)
 library(hash)
@@ -117,7 +116,7 @@ server <- function(input, output) {
   })
   
   # print reactive table
-  output$summaryTable <- renderDataTable(summaryStockData(), colnames = FALSE)
+  output$summaryTable <- renderTable(summaryStockData(), colnames = FALSE)
   
 }
 
