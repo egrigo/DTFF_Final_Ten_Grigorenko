@@ -57,19 +57,27 @@ beta_df <- data.frame(comp_names)
 beta_df <- cbind(beta_df, as.data.frame(beta))
 beta_df <- cbind(beta_df, as.data.frame(tickers))
 
+r_m = as.double(gspc$Close[gspc$Date=='2020-12-01'])/as.double(gspc$Close[gspc$Date=='2019-12-02']) -1
+
+r_e <- data.frame(round(beta_df$beta * r_m,2))
 # make latex table
 latex(beta_df, file='beta.tex', caption = "Beta coefficients")
 
+r_e <- cbind(as.data.frame(comp_names),r_e)
+latex(r_e, file='r_e.tex', caption = "Cost of Capital")
+
+
+
 # make graph
 adj <- ifelse(comp_names=='PJSC Lukoil',2,1)
-g <- ggplot(beta_df,aes(x = comp_names, y=beta)) + 
-     geom_point() + 
-     geom_text(aes(label=comp_names),hjust=0.5, vjust=ifelse(comp_names=='PJSC Lukoil',-1,1.5)) + 
-     theme(axis.text.x =  element_blank(), axis.title = element_blank(), axis.ticks.x = element_blank()) + 
-     scale_x_discrete(name = element_blank()) +
-     theme(panel.background=element_blank()) + 
-     scale_y_continuous(breaks = seq(0.8, 1.6, by = 0.1))
-     
+g <- ggplot(beta_df,aes(x = tickers, y=beta, fill = "fruit")) + 
+     geom_bar(stat='identity') + 
+  #   geom_text(aes(label=comp_names),hjust=0.5, vjust=ifelse(comp_names=='PJSC Lukoil',-1,1.5)) + 
+     theme(axis.title = element_blank(), legend.position = "none") 
+  #   scale_x_discrete(name = element_blank()) +
+   #  theme(panel.background=element_blank()) + 
+  #   scale_y_continuous(breaks = seq(0.8, 1.6, by = 0.1))
+
 
   
 print(g)

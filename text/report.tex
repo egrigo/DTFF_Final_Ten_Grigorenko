@@ -45,17 +45,29 @@ The second part of the report is dedicated to the estimation of the cost of capi
 \section {Cost of Capital}
 \subsection {Methodology}
 
-According to \cite{DamodaranDark} and \cite{BestPract}
+According to \cite{DamodaranDark} and \cite{BestPract}, one of the most prominents methods in calculating the cost of equity is the CAPM model, that is being implemented in the current research.
 
 \subsection {Risk-free rate}
+
+For the estimation of risk-free rates we considered global risk-free rates (Figure ~\ref{fig:rf})
+
+% insert beta plot
+\begin{figure}[!h]
+\caption{Global risk free rates}
+\includegraphics[scale=0.25]{risk_free}
+\label{fig:rf}
+\end{figure}
+
+
+The risk free rate for the current project was accepted to be 0.
 
 \subsection {Beta estimation}
 
 Companies' beta coefficients were calculated, using the methodology, described by \cite{DamodaranDark}.\\
 The 5 year time period was used for the estimation. The market index was represented by S\&P 500.\\
-The results are presented in Table 1.\\
+The results are presented in Table \ref{tab:beta}.\\
 
-% table betas
+% insert beta table 
 \begin{table}[!h]
 \caption{Beta coefficients\label{beta}} 
 \begin{center}
@@ -74,21 +86,51 @@ The results are presented in Table 1.\\
 9&PJSC Lukoil&$0.97$\tabularnewline
 \hline
 \end{tabular}\end{center}
+\label{tab:beta}
 \end{table}
 
-\begin{figure}[h]
+% insert beta plot
+\begin{figure}[!h]
 \caption{Beta Coefficients}
-\includegraphics[scale=0.8]{beta_plot}
-\label{fig:test}
+\includegraphics[scale=0.65]{beta_plot_bars}
+\label{fig:beta}
 \end{figure}
 
 
-
-
 \subsection {Cost of Equity}
-\subsection {Cost of Debt}
-\subsection {Leverage Structure}
+
+Cost of equity was calculated with the CAPM method, ising the following formula:
+
+$$ r_e = r_f + \beta (r_m - r_f)$$
+
+The results of calculations are provided in Table \ref{tab:r_e}.
+
+% insert r_e table
+\begin{table}[!h]
+\caption{Cost of Capital\label{r}} 
+\begin{center}
+\begin{tabular}{llr}
+\hline\hline
+%\multicolumn{1}{l}{r}&\multicolumn{1}{c}{comp_names}&\multicolumn{1}{c}{round.beta_df.beta...r_m..2.}\tabularnewline
+\hline
+1&China Petroleum \& Chemical&$0.15$\tabularnewline
+2&PetroChina&$0.17$\tabularnewline
+3&Royal Dutch Shell PLC&$0.20$\tabularnewline
+4&BP PLC&$0.19$\tabularnewline
+5&Exxon Mobil Corp.&$0.18$\tabularnewline
+6&Total SE&$0.19$\tabularnewline
+7&Chevron Corp.&$0.21$\tabularnewline
+8&Marathon Petroleum Corp.&$0.27$\tabularnewline
+9&PJSC Lukoil&$0.17$\tabularnewline
+\hline
+\end{tabular}\end{center}
+\label{tab:r_e}
+\end{table}
+
+
+
 \subsection {Findings and Conclusion}
+
 
 \newpage
 \printbibliography [heading=bibintoc]
