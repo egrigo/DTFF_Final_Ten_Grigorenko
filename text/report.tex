@@ -5,6 +5,7 @@
 \usepackage{amsmath}
 
 \usepackage{blindtext}
+\usepackage{graphicx}
 
 % bibliography
 \usepackage [style=bwl-FU, url=false, eprint=false]{biblatex}
@@ -46,9 +47,44 @@ The second part of the report is dedicated to the estimation of the cost of capi
 
 According to \cite{DamodaranDark} and \cite{BestPract}
 
+\subsection {Risk-free rate}
 
 \subsection {Beta estimation}
-\subsection {Risk-free rate}
+
+Companies' beta coefficients were calculated, using the methodology, described by \cite{DamodaranDark}.\\
+The 5 year time period was used for the estimation. The market index was represented by S\&P 500.\\
+The results are presented in Table 1.\\
+
+% table betas
+\begin{table}[!h]
+\caption{Beta coefficients\label{beta}} 
+\begin{center}
+\begin{tabular}{llr}
+\hline\hline
+%\multicolumn{1}{l}{beta}&\multicolumn{1}{c}{comp_names}&\multicolumn{1}{c}{beta}\tabularnewline
+\hline
+1&China Petroleum \& Chemical&$0.83$\tabularnewline
+2&PetroChina&$0.97$\tabularnewline
+3&Royal Dutch Shell PLC&$1.11$\tabularnewline
+4&BP PLC&$1.09$\tabularnewline
+5&Exxon Mobil Corp.&$1.02$\tabularnewline
+6&Total SE&$1.07$\tabularnewline
+7&Chevron Corp.&$1.20$\tabularnewline
+8&Marathon Petroleum Corp.&$1.54$\tabularnewline
+9&PJSC Lukoil&$0.97$\tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}
+
+\begin{figure}[h]
+\caption{Beta Coefficients}
+\includegraphics[scale=0.8]{beta_plot}
+\label{fig:test}
+\end{figure}
+
+
+
+
 \subsection {Cost of Equity}
 \subsection {Cost of Debt}
 \subsection {Leverage Structure}
