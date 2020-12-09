@@ -70,7 +70,7 @@ latex(r_e, file='r_e.tex', caption = "Cost of Capital")
 
 # make graph
 adj <- ifelse(comp_names=='PJSC Lukoil',2,1)
-g <- ggplot(beta_df,aes(x = tickers, y=beta, fill = "fruit")) + 
+g <- ggplot(beta_df,aes(x = reorder(tickers, beta), y=beta, fill = "fruit")) + 
      geom_bar(stat='identity') + 
   #   geom_text(aes(label=comp_names),hjust=0.5, vjust=ifelse(comp_names=='PJSC Lukoil',-1,1.5)) + 
      theme(axis.title = element_blank(), legend.position = "none") 
