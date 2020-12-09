@@ -37,7 +37,7 @@ In general, we got experience with Git/Github, Slack, R, Python, SQL, LaTeX (Ove
 \section{Version Control}
 \begin{frame}
 \frametitle{Version control}
-Version control was implemented with Git. The commands were sent via command line and GitHub desktop.
+Version control was implemented via Git. The commands were sent via command line and GitHub desktop.
 
 \end{frame}
 
@@ -55,17 +55,27 @@ Also we created a Slack channel and connected it to our Git repository.
 \begin{frame}
 \frametitle{LateX}
 We configurated Sublime Text editor to use LaTeX.\\
-Using Sublime Text and Overleaf, we produced this set of slides and the report, located in the 'text' folder.
-Also we elaborated the bibliography, having created an auxiliary file /text/biblio.bib.
-
+\begin{itemize}
+\item Using Sublime Text and Overleaf, we produced this set of slides as a beamer presentation.
+\item Using Sublime Text and Overleaf, we produced the report (report.tex), that contains a table of contents, figures, tables and bibliography.
+\item We elaborated the bibliography, having created an auxiliary file /text/biblio.bib.
+\end{itemize}
 
 \end{frame}
 
 \section{Data Management}
 \begin{frame}
 \frametitle{Data management}
-We used SQL to work with our dataset on stock prices.\\
-SQL queries were than used in our analysis in R (/code/wacc.R and /r-shiny/app.R)
+For our project we performed a set of calculations in R (/code/wacc.R).\\
+Specifically we calculated the cost of capital of oil companies with the following steps:
+\begin{itemize}
+\item Downloaded .csv files with stock and index data
+\item Processed and filtered the data in R, using SQL
+\item Used regression analysis to estimate historical betas
+\item Produced LaTeX output in R
+\item Built plots in R
+\item Assembled the findings in LaTeX
+\end{itemize}
 
 \end{frame}
 
@@ -77,11 +87,32 @@ SQL queries were than used in our analysis in R (/code/wacc.R and /r-shiny/app.R
 
 
 \section{Knowledge Transfer}
+%First slide on Knowledge transfer
 \begin{frame}
 \frametitle{Knowledge transfer}
-With the means of R shiny we produced an interactive page, that processes user's input into graphs (/r-shiny/app.R).
+With the means of R shiny we produced an interactive page, that processes user's input into graphs (/r-shiny/app.R).\\
+The application allows user to choose one of the companies and time interval to visualize stock dynamics on a graph. The user may also choose an option to see the dynamics of S\&P 500 on the same graph.\\
 
+% insert screenshot with input
+\begin{figure}[!h]
+\includegraphics[scale=0.25]{screenshot1}
+\label{fig:ss1}
+\end{figure}
 \end{frame}
+
+%Second slide on Knowledge transfer
+
+\begin{frame}
+\frametitle{Knowledge transfer}
+Example of output:
+
+% insert screenshot with output2
+\begin{figure}[!h]
+\includegraphics[scale=0.18]{screenshot2}
+\label{fig:ss1}
+\end{figure}
+\end{frame}
+
 
 
 
