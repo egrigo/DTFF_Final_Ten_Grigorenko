@@ -5,6 +5,7 @@ library(Hmisc)
 library(xts)
 library(PerformanceAnalytics)
 library(rstudioapi)
+library(reshape2)
 
 setwd(dirname(getActiveDocumentContext()$path))  
 setwd('..')
@@ -46,6 +47,7 @@ for (i in 1:n) {
     stockdata <- as.data.frame(Return.calculate(temp_table[[2]]))
   else
     stockdata <- cbind(stockdata,as.data.frame(Return.calculate(temp_table[[2]])))
+  colnames(stockdata)[i] <- paste('comp',i,sep = "")
 #  stockdata[i*2 - 1] <- lapply(stockdata[i*2 - 1], as.numeric)
 #  stockdata[i*2 - 1] <- lapply(stockdata[i*2 - 1], as.Date)
   model <- lm(stockdata[[i]] ~ gspc_returns[[1]])
@@ -62,25 +64,50 @@ r_m = as.double(gspc$Close[gspc$Date=='2020-12-01'])/as.double(gspc$Close[gspc$D
 r_e <- data.frame(round(beta_df$beta * r_m,2))
 # make latex table
 latex(beta_df, file='beta.tex', caption = "Beta coefficients")
-
 r_e <- cbind(as.data.frame(comp_names),r_e)
 latex(r_e, file='r_e.tex', caption = "Cost of Capital")
 
-
-
-# make graph
+# make beta chart
 adj <- ifelse(comp_names=='PJSC Lukoil',2,1)
 g <- ggplot(beta_df,aes(x = reorder(tickers, beta), y=beta, fill = "fruit")) + 
      geom_bar(stat='identity') + 
   #   geom_text(aes(label=comp_names),hjust=0.5, vjust=ifelse(comp_names=='PJSC Lukoil',-1,1.5)) + 
-     theme(axis.title = element_blank(), legend.position = "none") 
+     theme(axis.title = element_blank(), legend.position = "none") +
   #   scale_x_discrete(name = element_blank()) +
-   #  theme(panel.background=element_blank()) + 
+     theme(panel.background=element_blank()) 
   #   scale_y_continuous(breaks = seq(0.8, 1.6, by = 0.1))
 
-
-  
 print(g)
 
+# make stock dynamics plot
+stockdata <- cbind(stockdata, row.names(stockdata))
+colnames(stockdata)[10] <- 'date'
+stockdata$date <- as.Date(stockdata$date)
+stockdata_lastyear <- subset(stockdata, date>='2019-12-01')
+
+
+# SNP histogram
+
+g <- ggplot(stockdata_lastyear, aes(x=comp1)) + 
+     geom_histogram(color="black", fill="steelblue", alpha=0.2) + 
+     geom_density() + 
+     scale_x_continuous(name = element_blank()) +
+     scale_y_continuous(name = "Number of days") +  
+     theme_bw() + 
+#     ggtitle('Daily returns distribution of China Petroleum & Chemical') +
+     theme(plot.title = element_text(hjust = 0.5))
+print(g)
+
+
+# LUKOIL histogram
+
+g <- ggplot(stockdata_lastyear, aes(x=comp9)) + 
+  geom_histogram(color="black", fill="steelblue", alpha=0.2) + 
+  geom_density() + 
+  scale_x_continuous(name = element_blank()) +
+  scale_y_continuous(name = "Number of days") +  
+  theme_bw() + 
+  theme(plot.title = element_text(hjust = 0.5))
+print(g)
 
 

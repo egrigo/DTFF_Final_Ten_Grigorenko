@@ -43,28 +43,45 @@ The second part of the report is dedicated to the estimation of the cost of capi
 \section {Overview of Market Data}
 
 \section {Cost of Capital}
-\subsection {Methodology}
-
 According to \cite{DamodaranDark} and \cite{BestPract}, one of the most prominents methods in calculating the cost of equity is the CAPM model, that is being implemented in the current research.
+
+\subsection {Returns Distribution}
+
+In this section we consider the type of the returns' distribution of several companies, as recommended by \cite{Fishman}.
+
+% insert SNP hist plot
+\begin{figure}[h]
+\caption{Daily returns distribution of China Petroleum \& Chemical}
+\includegraphics[scale=0.65]{snp_hist}
+\label{fig:hist1}
+\end{figure}
+
+% insert LUKOIL hist plot
+\begin{figure}[h]
+\caption{Daily returns distribution of PJSC Lukoil}
+\includegraphics[scale=0.65]{LUKOIL_hist}
+\label{fig:hist1}
+\end{figure}
+
 
 
 \subsection {Risk-free rate}
 
-For the estimation of risk-free rates we considered global risk-free rates (Figure ~\ref{fig:rf})
+According to \cite{Anderson}, for the estimation of risk-free rates we considered global risk-free rates (Figure ~\ref{fig:rf})
 
-% insert beta plot
-\begin{figure}[!h]
+% insert r_f plot
+\begin{figure}[!tbp]
 \caption{Global risk free rates}
 \includegraphics[scale=0.25]{risk_free}
 \label{fig:rf}
 \end{figure}
 
-
 The risk free rate for the current project was accepted to be 0.
 
+\clearpage
 \subsection {Beta estimation}
 
-Companies' beta coefficients were calculated, using the methodology, described by \cite{DamodaranDark}.\\
+Companies' beta coefficients were calculated, using the methodology, described by \cite{Casey}.\\
 The 5 year time period was used for the estimation. The market index was represented by S\&P 500.\\
 The results are presented in Table \ref{tab:beta}.\\
 
@@ -75,7 +92,7 @@ The results are presented in Table \ref{tab:beta}.\\
 \begin{tabular}{llr}
 \hline\hline
 %\multicolumn{1}{l}{beta}&\multicolumn{1}{c}{comp_names}&\multicolumn{1}{c}{beta}\tabularnewline
-\hline
+%\hline
 1&China Petroleum \& Chemical&$0.83$\tabularnewline
 2&PetroChina&$0.97$\tabularnewline
 3&Royal Dutch Shell PLC&$1.11$\tabularnewline
@@ -97,7 +114,7 @@ The results are presented in Table \ref{tab:beta}.\\
 \label{fig:beta}
 \end{figure}
 
-
+\clearpage
 \subsection {Cost of Equity}
 
 Cost of equity was calculated with the CAPM method, ising the following formula:
@@ -113,7 +130,7 @@ The results of calculations are provided in Table \ref{tab:r_e}.
 \begin{tabular}{llr}
 \hline\hline
 %\multicolumn{1}{l}{r}&\multicolumn{1}{c}{comp_names}&\multicolumn{1}{c}{round.beta_df.beta...r_m..2.}\tabularnewline
-\hline
+%\hline
 1&China Petroleum \& Chemical&$0.15$\tabularnewline
 2&PetroChina&$0.17$\tabularnewline
 3&Royal Dutch Shell PLC&$0.20$\tabularnewline
@@ -130,9 +147,10 @@ The results of calculations are provided in Table \ref{tab:r_e}.
 
 
 
+\clearpage
 \subsection {Findings and Conclusion}
 
-
+\clearpage
 \newpage
 \printbibliography [heading=bibintoc]
 
