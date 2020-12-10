@@ -7,6 +7,8 @@ library(PerformanceAnalytics)
 library(rstudioapi)
 library(reshape2)
 
+current_path = rstudioapi::getActiveDocumentContext()$path 
+setwd(dirname(current_path ))
 setwd('data')
 
 tickers <- c("SNP","PTR",'RDS',"BP","XOM","TOT","CVX","MPC","LUKOY")
