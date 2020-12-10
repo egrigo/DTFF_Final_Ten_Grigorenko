@@ -57,7 +57,7 @@ server <- function(input, output) {
     # change directory
  #   current_path = rstudioapi::getActiveDocumentContext()$path 
  #   setwd(dirname(current_path ))
-    setwd("data")
+    setwd("~/data")
     
     # get dates
     date_start <- as.numeric(as.Date(input$dates[1]))
