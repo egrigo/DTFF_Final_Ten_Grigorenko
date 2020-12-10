@@ -55,8 +55,8 @@ server <- function(input, output) {
     title <- paste("Stock Dynamics of", title)
     
     # change directory
-    current_path = rstudioapi::getActiveDocumentContext()$path 
-    setwd(dirname(current_path ))
+ #   current_path = rstudioapi::getActiveDocumentContext()$path 
+ #   setwd(dirname(current_path ))
     setwd("data")
     
     # get dates
