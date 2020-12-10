@@ -7,9 +7,7 @@ library(PerformanceAnalytics)
 library(rstudioapi)
 library(reshape2)
 
-setwd(dirname(getActiveDocumentContext()$path))  
-setwd('..')
-setwd('./data/')
+setwd('data')
 
 tickers <- c("SNP","PTR",'RDS',"BP","XOM","TOT","CVX","MPC","LUKOY")
 comp_names <- c("China Petroleum & Chemical","PetroChina","Royal Dutch Shell PLC", 
@@ -48,8 +46,8 @@ for (i in 1:n) {
   else
     stockdata <- cbind(stockdata,as.data.frame(Return.calculate(temp_table[[2]])))
   colnames(stockdata)[i] <- paste('comp',i,sep = "")
-#  stockdata[i*2 - 1] <- lapply(stockdata[i*2 - 1], as.numeric)
-#  stockdata[i*2 - 1] <- lapply(stockdata[i*2 - 1], as.Date)
+  #  stockdata[i*2 - 1] <- lapply(stockdata[i*2 - 1], as.numeric)
+  #  stockdata[i*2 - 1] <- lapply(stockdata[i*2 - 1], as.Date)
   model <- lm(stockdata[[i]] ~ gspc_returns[[1]])
   beta[i] <- round(model$coef[2],2)
 }
@@ -70,12 +68,12 @@ latex(r_e, file='r_e.tex', caption = "Cost of Capital")
 # make beta chart
 adj <- ifelse(comp_names=='PJSC Lukoil',2,1)
 g <- ggplot(beta_df,aes(x = reorder(tickers, beta), y=beta, fill = "fruit")) + 
-     geom_bar(stat='identity') + 
+  geom_bar(stat='identity') + 
   #   geom_text(aes(label=comp_names),hjust=0.5, vjust=ifelse(comp_names=='PJSC Lukoil',-1,1.5)) + 
-     theme(axis.title = element_blank(), legend.position = "none") +
+  theme(axis.title = element_blank(), legend.position = "none") +
   #   scale_x_discrete(name = element_blank()) +
-     theme(panel.background=element_blank()) 
-  #   scale_y_continuous(breaks = seq(0.8, 1.6, by = 0.1))
+  theme(panel.background=element_blank()) 
+#   scale_y_continuous(breaks = seq(0.8, 1.6, by = 0.1))
 
 print(g)
 
@@ -89,13 +87,13 @@ stockdata_lastyear <- subset(stockdata, date>='2019-12-01')
 # SNP histogram
 
 g <- ggplot(stockdata_lastyear, aes(x=comp1)) + 
-     geom_histogram(color="black", fill="steelblue", alpha=0.2) + 
-     geom_density() + 
-     scale_x_continuous(name = element_blank()) +
-     scale_y_continuous(name = "Number of days") +  
-     theme_bw() + 
-#     ggtitle('Daily returns distribution of China Petroleum & Chemical') +
-     theme(plot.title = element_text(hjust = 0.5))
+  geom_histogram(color="black", fill="steelblue", alpha=0.2) + 
+  geom_density() + 
+  scale_x_continuous(name = element_blank()) +
+  scale_y_continuous(name = "Number of days") +  
+  theme_bw() + 
+  #     ggtitle('Daily returns distribution of China Petroleum & Chemical') +
+  theme(plot.title = element_text(hjust = 0.5))
 print(g)
 
 
