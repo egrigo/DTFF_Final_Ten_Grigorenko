@@ -1,6 +1,7 @@
 \documentclass {beamer}
 
 \usetheme{Madrid}
+\usepackage{url}
 
 \title{Digital Tools for Finance}
 \author [Ten, Grigorenko] {Elena Ten \and Elena Grigorenko}
@@ -58,7 +59,7 @@ We configurated Sublime Text editor to use LaTeX.\\
 \begin{itemize}
 \item Using Sublime Text and Overleaf, we produced this set of slides as a beamer presentation.
 \item Using Sublime Text and Overleaf, we produced the report (report.tex), that contains a table of contents, figures, tables and bibliography.
-\item We elaborated the bibliography, having created an auxiliary file /text/biblio.bib.
+\item We elaborated the bibliography, having created an auxiliary file \path{/text/biblio.bib}.
 \end{itemize}
 
 \end{frame}
@@ -66,7 +67,7 @@ We configurated Sublime Text editor to use LaTeX.\\
 \section{Data Management}
 \begin{frame}
 \frametitle{Data management}
-For our project we performed a set of calculations in R (/code/wacc.R).\\
+For our project we performed a set of calculations in R (\path{/R/oil_stocks.Rproj}).\\
 Specifically we calculated the cost of capital of oil companies with the following steps:
 \begin{itemize}
 \item Downloaded .csv files with stock and index data
@@ -90,7 +91,7 @@ Specifically we calculated the cost of capital of oil companies with the followi
 %First slide on Knowledge transfer
 \begin{frame}
 \frametitle{Knowledge transfer}
-With the means of R shiny we produced an interactive page, that processes user's input into graphs (/r-shiny/app.R).\\
+With the means of R shiny we produced an interactive page, that processes user's input into graphs (\path{/R/data/app.R}).\\
 The application allows user to choose one of the companies and time interval to visualize stock dynamics on a graph. The user may also choose an option to see the dynamics of S\&P 500 on the same graph.\\
 
 % insert screenshot with input
