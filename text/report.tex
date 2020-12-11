@@ -7,6 +7,7 @@
 \usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage[table]{xcolor}
+\usepackage{dcolumn}
 
 % bibliography
 \usepackage [style=bwl-FU, url=false, eprint=false]{biblatex}
@@ -14,6 +15,7 @@
 
 \setcounter{secnumdepth}{0}
 
+\newcolumntype{L}{D{.}{.}{2,5}}
 
 \begin{document}
 % title description 
@@ -44,6 +46,33 @@ The second part of the report is dedicated to the estimation of the cost of capi
 \section {Overview of Market Data}
 
 \section{Market}
+
+% insert Companies statistics
+
+\begin{table}[h]
+\caption{Oil companies statistics\label{summary}} 
+\begin{center}
+\begin{tabular}{lLLLLLLLLL}
+\hline\hline
+
+\multicolumn{1}{l}{Statistics}&\multicolumn{1}{c}{ SNP }&\multicolumn{1}{c}{ PTR }&\multicolumn{1}{c}{  RDS }&\multicolumn{1}{c}{ BP }&\multicolumn{1}{c}{ XOM }&\multicolumn{1}{c}{ TOT }&\multicolumn{1}{c}{ CVX }\tabularnewline
+\hline
+Min.& \cellcolor{green!25} -0.0676 & \cellcolor{green!25} -0.0988& -0.1717& -0.1910& -0.1222& -0.1782 & -0.2212    \tabularnewline
+1st Qu.&-0.0125  &-0.0142  &-0.0168  &-0.0172  &-0.0178  &-0.0127 &-0.0148   \tabularnewline
+Median& \cellcolor{green!25} -0.0001  &-0.0023  &-0.0016 &-0.0031  &\cellcolor{red!25} -0.0045  &-0.0007 &-0.0020  \tabularnewline
+Mean&-0.0005  &-0.0010  &-0.0011  &-0.0017  &-0.0017  &-0.0001  &-0.0004   \tabularnewline
+3rd Qu.&0.0108 &0.0105  &0.0138  &0.0131  &0.0111  &0.0139 &0.0122  \tabularnewline
+Max.&0.1026  &0.1490  & \cellcolor{green!25} 0.1967  & \cellcolor{green!25}0.2160  &0.1268 &0.1527  & \cellcolor{green!25} 0.2274   \tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\label{tab:comps}
+\end{table}
+
+
+
+
+
 % insert S&P plot
 \begin{figure}[h]
 \caption{Dynamics of S\&P Index}

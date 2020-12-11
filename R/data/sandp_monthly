@@ -1,0 +1,156 @@
+%latex.default(stargazer(gspc_monthly), file = "sandp_monthly",     caption = "S&P distribution")%
+\begin{table}[!tbp]
+\caption{S&P distribution\label{stargazer}} 
+\begin{center}
+\begin{tabular}{l}
+\hline\hline
+\multicolumn{1}{c}{}\tabularnewline
+\hline
+\tabularnewline
+\% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu\tabularnewline
+\% Date and time: Fri, Dec 11, 2020 - 13:06:50\tabularnewline
+\begin{table}[!htbp] \centering \tabularnewline
+  \caption{} \tabularnewline
+  \label{} \tabularnewline
+\begin{tabular}{@{\extracolsep{5pt}} ccc} \tabularnewline
+\\[-1.8ex]\hline \tabularnewline
+\hline \\[-1.8ex] \tabularnewline
+$14,610$ \& $1,116.560$ \& $1,073.870$ \\ \tabularnewline
+$14,641$ \& $1,073.890$ \& $1,104.490$ \\ \tabularnewline
+$14,669$ \& $1,105.360$ \& $1,169.430$ \\ \tabularnewline
+$14,700$ \& $1,171.230$ \& $1,186.690$ \\ \tabularnewline
+$14,730$ \& $1,188.580$ \& $1,089.410$ \\ \tabularnewline
+$14,761$ \& $1,087.300$ \& $1,030.710$ \\ \tabularnewline
+$14,791$ \& $1,031.100$ \& $1,101.600$ \\ \tabularnewline
+$14,822$ \& $1,107.530$ \& $1,049.330$ \\ \tabularnewline
+$14,853$ \& $1,049.720$ \& $1,141.200$ \\ \tabularnewline
+$14,883$ \& $1,143.490$ \& $1,183.260$ \\ \tabularnewline
+$14,914$ \& $1,185.710$ \& $1,180.550$ \\ \tabularnewline
+$14,944$ \& $1,186.600$ \& $1,257.640$ \\ \tabularnewline
+$14,975$ \& $1,257.620$ \& $1,286.120$ \\ \tabularnewline
+$15,006$ \& $1,289.140$ \& $1,327.220$ \\ \tabularnewline
+$15,034$ \& $1,328.640$ \& $1,325.830$ \\ \tabularnewline
+$15,065$ \& $1,329.480$ \& $1,363.610$ \\ \tabularnewline
+$15,095$ \& $1,365.210$ \& $1,345.200$ \\ \tabularnewline
+$15,126$ \& $1,345.200$ \& $1,320.640$ \\ \tabularnewline
+$15,156$ \& $1,320.640$ \& $1,292.280$ \\ \tabularnewline
+$15,187$ \& $1,292.590$ \& $1,218.890$ \\ \tabularnewline
+$15,218$ \& $1,219.120$ \& $1,131.420$ \\ \tabularnewline
+$15,248$ \& $1,131.210$ \& $1,253.300$ \\ \tabularnewline
+$15,279$ \& $1,251$ \& $1,246.960$ \\ \tabularnewline
+$15,309$ \& $1,246.910$ \& $1,257.600$ \\ \tabularnewline
+$15,340$ \& $1,258.860$ \& $1,312.410$ \\ \tabularnewline
+$15,371$ \& $1,312.450$ \& $1,365.680$ \\ \tabularnewline
+$15,400$ \& $1,365.900$ \& $1,408.470$ \\ \tabularnewline
+$15,431$ \& $1,408.470$ \& $1,397.910$ \\ \tabularnewline
+$15,461$ \& $1,397.860$ \& $1,310.330$ \\ \tabularnewline
+$15,492$ \& $1,309.870$ \& $1,362.160$ \\ \tabularnewline
+$15,522$ \& $1,362.330$ \& $1,379.320$ \\ \tabularnewline
+$15,553$ \& $1,379.320$ \& $1,406.580$ \\ \tabularnewline
+$15,584$ \& $1,406.540$ \& $1,440.670$ \\ \tabularnewline
+$15,614$ \& $1,440.900$ \& $1,412.160$ \\ \tabularnewline
+$15,645$ \& $1,412.200$ \& $1,416.180$ \\ \tabularnewline
+$15,675$ \& $1,416.340$ \& $1,426.190$ \\ \tabularnewline
+$15,706$ \& $1,426.190$ \& $1,498.110$ \\ \tabularnewline
+$15,737$ \& $1,498.110$ \& $1,514.680$ \\ \tabularnewline
+$15,765$ \& $1,514.680$ \& $1,569.190$ \\ \tabularnewline
+$15,796$ \& $1,569.180$ \& $1,597.570$ \\ \tabularnewline
+$15,826$ \& $1,597.550$ \& $1,630.740$ \\ \tabularnewline
+$15,857$ \& $1,631.710$ \& $1,606.280$ \\ \tabularnewline
+$15,887$ \& $1,609.780$ \& $1,685.730$ \\ \tabularnewline
+$15,918$ \& $1,689.420$ \& $1,632.970$ \\ \tabularnewline
+$15,949$ \& $1,635.950$ \& $1,681.550$ \\ \tabularnewline
+$15,979$ \& $1,682.410$ \& $1,756.540$ \\ \tabularnewline
+$16,010$ \& $1,758.700$ \& $1,805.810$ \\ \tabularnewline
+$16,040$ \& $1,806.550$ \& $1,848.360$ \\ \tabularnewline
+$16,071$ \& $1,845.860$ \& $1,782.590$ \\ \tabularnewline
+$16,102$ \& $1,782.680$ \& $1,859.450$ \\ \tabularnewline
+$16,130$ \& $1,857.680$ \& $1,872.340$ \\ \tabularnewline
+$16,161$ \& $1,873.960$ \& $1,883.950$ \\ \tabularnewline
+$16,191$ \& $1,884.390$ \& $1,923.570$ \\ \tabularnewline
+$16,222$ \& $1,923.870$ \& $1,960.230$ \\ \tabularnewline
+$16,252$ \& $1,962.290$ \& $1,930.670$ \\ \tabularnewline
+$16,283$ \& $1,929.800$ \& $2,003.370$ \\ \tabularnewline
+$16,314$ \& $2,004.070$ \& $1,972.290$ \\ \tabularnewline
+$16,344$ \& $1,971.440$ \& $2,018.050$ \\ \tabularnewline
+$16,375$ \& $2,018.210$ \& $2,067.560$ \\ \tabularnewline
+$16,405$ \& $2,065.780$ \& $2,058.900$ \\ \tabularnewline
+$16,436$ \& $2,058.900$ \& $1,994.990$ \\ \tabularnewline
+$16,467$ \& $1,996.670$ \& $2,104.500$ \\ \tabularnewline
+$16,495$ \& $2,105.230$ \& $2,067.890$ \\ \tabularnewline
+$16,526$ \& $2,067.630$ \& $2,085.510$ \\ \tabularnewline
+$16,556$ \& $2,087.380$ \& $2,107.390$ \\ \tabularnewline
+$16,587$ \& $2,108.640$ \& $2,063.110$ \\ \tabularnewline
+$16,617$ \& $2,067$ \& $2,103.840$ \\ \tabularnewline
+$16,648$ \& $2,104.490$ \& $1,972.180$ \\ \tabularnewline
+$16,679$ \& $1,970.090$ \& $1,920.030$ \\ \tabularnewline
+$16,709$ \& $1,919.650$ \& $2,079.360$ \\ \tabularnewline
+$16,740$ \& $2,080.760$ \& $2,080.410$ \\ \tabularnewline
+$16,770$ \& $2,082.930$ \& $2,043.940$ \\ \tabularnewline
+$16,801$ \& $2,038.200$ \& $1,940.240$ \\ \tabularnewline
+$16,832$ \& $1,936.940$ \& $1,932.230$ \\ \tabularnewline
+$16,861$ \& $1,937.090$ \& $2,059.740$ \\ \tabularnewline
+$16,892$ \& $2,056.620$ \& $2,065.300$ \\ \tabularnewline
+$16,922$ \& $2,067.170$ \& $2,096.950$ \\ \tabularnewline
+$16,953$ \& $2,093.940$ \& $2,098.860$ \\ \tabularnewline
+$16,983$ \& $2,099.340$ \& $2,173.600$ \\ \tabularnewline
+$17,014$ \& $2,173.150$ \& $2,170.950$ \\ \tabularnewline
+$17,045$ \& $2,171.330$ \& $2,168.270$ \\ \tabularnewline
+$17,075$ \& $2,164.330$ \& $2,126.150$ \\ \tabularnewline
+$17,106$ \& $2,128.680$ \& $2,198.810$ \\ \tabularnewline
+$17,136$ \& $2,200.170$ \& $2,238.830$ \\ \tabularnewline
+$17,167$ \& $2,251.570$ \& $2,278.870$ \\ \tabularnewline
+$17,198$ \& $2,285.590$ \& $2,363.640$ \\ \tabularnewline
+$17,226$ \& $2,380.130$ \& $2,362.720$ \\ \tabularnewline
+$17,257$ \& $2,362.340$ \& $2,384.200$ \\ \tabularnewline
+$17,287$ \& $2,388.500$ \& $2,411.800$ \\ \tabularnewline
+$17,318$ \& $2,415.650$ \& $2,423.410$ \\ \tabularnewline
+$17,348$ \& $2,431.390$ \& $2,470.300$ \\ \tabularnewline
+$17,379$ \& $2,477.100$ \& $2,471.650$ \\ \tabularnewline
+$17,410$ \& $2,474.420$ \& $2,519.360$ \\ \tabularnewline
+$17,440$ \& $2,521.200$ \& $2,575.260$ \\ \tabularnewline
+$17,471$ \& $2,583.210$ \& $2,584.840$ \\ \tabularnewline
+$17,501$ \& $2,645.100$ \& $2,673.610$ \\ \tabularnewline
+$17,532$ \& $2,683.730$ \& $2,823.810$ \\ \tabularnewline
+$17,563$ \& $2,816.450$ \& $2,713.830$ \\ \tabularnewline
+$17,591$ \& $2,715.220$ \& $2,640.870$ \\ \tabularnewline
+$17,622$ \& $2,633.450$ \& $2,648.050$ \\ \tabularnewline
+$17,652$ \& $2,642.960$ \& $2,705.270$ \\ \tabularnewline
+$17,683$ \& $2,718.700$ \& $2,718.370$ \\ \tabularnewline
+$17,713$ \& $2,704.950$ \& $2,816.290$ \\ \tabularnewline
+$17,744$ \& $2,821.170$ \& $2,901.520$ \\ \tabularnewline
+$17,775$ \& $2,896.960$ \& $2,913.980$ \\ \tabularnewline
+$17,805$ \& $2,926.290$ \& $2,711.740$ \\ \tabularnewline
+$17,836$ \& $2,717.580$ \& $2,760.170$ \\ \tabularnewline
+$17,866$ \& $2,790.500$ \& $2,506.850$ \\ \tabularnewline
+$17,897$ \& $2,476.960$ \& $2,704.100$ \\ \tabularnewline
+$17,928$ \& $2,702.320$ \& $2,784.490$ \\ \tabularnewline
+$17,956$ \& $2,798.220$ \& $2,834.400$ \\ \tabularnewline
+$17,987$ \& $2,848.630$ \& $2,945.830$ \\ \tabularnewline
+$18,017$ \& $2,952.330$ \& $2,752.060$ \\ \tabularnewline
+$18,048$ \& $2,751.530$ \& $2,941.760$ \\ \tabularnewline
+$18,078$ \& $2,971.410$ \& $2,980.380$ \\ \tabularnewline
+$18,109$ \& $2,980.320$ \& $2,926.460$ \\ \tabularnewline
+$18,140$ \& $2,909.010$ \& $2,976.740$ \\ \tabularnewline
+$18,170$ \& $2,983.690$ \& $3,037.560$ \\ \tabularnewline
+$18,201$ \& $3,050.720$ \& $3,140.980$ \\ \tabularnewline
+$18,231$ \& $3,143.850$ \& $3,230.780$ \\ \tabularnewline
+$18,262$ \& $3,244.670$ \& $3,225.520$ \\ \tabularnewline
+$18,293$ \& $3,235.660$ \& $2,954.220$ \\ \tabularnewline
+$18,322$ \& $2,974.280$ \& $2,584.590$ \\ \tabularnewline
+$18,353$ \& $2,498.080$ \& $2,912.430$ \\ \tabularnewline
+$18,383$ \& $2,869.090$ \& $3,044.310$ \\ \tabularnewline
+$18,414$ \& $3,038.780$ \& $3,100.290$ \\ \tabularnewline
+$18,444$ \& $3,105.920$ \& $3,271.120$ \\ \tabularnewline
+$18,475$ \& $3,288.260$ \& $3,500.310$ \\ \tabularnewline
+$18,506$ \& $3,507.440$ \& $3,363$ \\ \tabularnewline
+$18,536$ \& $3,385.870$ \& $3,269.960$ \\ \tabularnewline
+$18,567$ \& $3,296.200$ \& $3,621.630$ \\ \tabularnewline
+$18,597$ \& $3,645.870$ \& $3,668.100$ \\ \tabularnewline
+$18,606$ \& $3,659.130$ \& $3,668.100$ \\ \tabularnewline
+\hline \\[-1.8ex] \tabularnewline
+\end{tabular} \tabularnewline
+\end{table} \tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}
