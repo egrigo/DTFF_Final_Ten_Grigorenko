@@ -111,3 +111,22 @@ g <- ggplot(stockdata_lastyear, aes(x=comp9)) +
 print(g)
 
 
+# S&P monthly
+
+gspc_monthly <- data.frame(read.csv('GSPC_monthly.csv')) 
+#gspc_monthly[1] <- lapply(gspc_monthly[1], as.numeric)
+gspc_monthly[1] <- lapply(gspc_monthly[1], as.Date)
+
+g <- ggplot(gspc_monthly, aes(x=Date)) + 
+  geom_line(aes(y=Close, group=1)) + 
+  scale_y_continuous(name = element_blank(), breaks = seq(1000, 4000, by = 500)) +  
+  theme_bw() + 
+  scale_x_date(name=NULL, date_breaks = "1 year", date_labels = "%Y") +
+  theme(plot.title = element_text(hjust = 0.5)) + 
+  geom_text(aes(x=as.Date("2020-02-01"), y=1000, label="Start of Corona crisis"), colour="red", angle=90, vjust = -1, hjust=0) +
+  geom_vline(xintercept = as.Date("2020-02-01"),  linetype="dotted", color = "red", size=0.5) +
+  geom_text(aes(y=2585, x= as.Date("2012-02-01"), label="2 585 - Low of Corona crisis"), colour="red", vjust = -1, hjust=0) +
+  geom_hline(yintercept = 2584.59,  linetype="dotted", color = "red", size=0.5)
+
+print(g)
+

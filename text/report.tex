@@ -6,6 +6,7 @@
 
 \usepackage{blindtext}
 \usepackage{graphicx}
+\usepackage[table]{xcolor}
 
 % bibliography
 \usepackage [style=bwl-FU, url=false, eprint=false]{biblatex}
@@ -42,6 +43,16 @@ The second part of the report is dedicated to the estimation of the cost of capi
 
 \section {Overview of Market Data}
 
+\section{Market}
+% insert S&P plot
+\begin{figure}[h]
+\caption{Dynamics of S\&P Index}
+\includegraphics[scale=0.17]{sandp}
+\label{fig:sandp}
+\end{figure}
+
+
+\clearpage
 \section {Cost of Capital}
 According to \cite{DamodaranDark} and \cite{BestPract}, one of the most prominents methods in calculating the cost of equity is the CAPM model, that is being implemented in the current research.
 
@@ -131,14 +142,14 @@ The results of calculations are provided in Table \ref{tab:r_e}.
 \hline\hline
 %\multicolumn{1}{l}{r}&\multicolumn{1}{c}{comp_names}&\multicolumn{1}{c}{round.beta_df.beta...r_m..2.}\tabularnewline
 %\hline
-1&China Petroleum \& Chemical&$0.15$\tabularnewline
+1&China Petroleum \& Chemical&$ \cellcolor{red!25} 0.15$\tabularnewline
 2&PetroChina&$0.17$\tabularnewline
 3&Royal Dutch Shell PLC&$0.20$\tabularnewline
 4&BP PLC&$0.19$\tabularnewline
 5&Exxon Mobil Corp.&$0.18$\tabularnewline
 6&Total SE&$0.19$\tabularnewline
 7&Chevron Corp.&$0.21$\tabularnewline
-8&Marathon Petroleum Corp.&$0.27$\tabularnewline
+8&Marathon Petroleum Corp.&$ \cellcolor{green!25}0.27$\tabularnewline
 9&PJSC Lukoil&$0.17$\tabularnewline
 \hline
 \end{tabular}\end{center}
