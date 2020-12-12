@@ -21,7 +21,7 @@
 \author {\huge Elena Ten 19-765-395, \\
 	 	 \huge Elena Grigorenko 19-738-343}
 
-\date {\huge 10.12.2020}
+\date {\huge 15.12.2020}
 
 
 
@@ -36,16 +36,92 @@
 \newpage
 
 \section {Introduction}
+The main objective of this report is to analyse the oil industry, focusing on the cost of capital and stock prices of the chosen companies. Nine biggest companies, representing the industry were chosen. \\
 This report is aimed on the estimation of the cost of capital of the main players of the oil industry.\\
-The first part of the report gives a brief overview of main market characteristics of oil stocks.\\
+The first part of the report gives an overview of stock prices of the companies, including analysis, predictions, as well as returns rate and risks.\\
 The second part of the report is dedicated to the estimation of the cost of capital.
 
-\section {Overview of Market Data}
+\section {Stock Price Analysis}
+The evaluation of the stock prices of the oil companies was carried out in Python.\\
+Lukoil company was chosen as a benchmark to evaluate and compare the stock price performance relative to the competitors.\\
+The analysis is focused on closing prices, to provide a better understanding of the stock performance. we analyse stocks using two key measurements: Rolling Mean and Return Rate.\\
+As the first step we study the stock prices of Lukoil.
+
+
+\subsection {Stock price of Lukoil}
+First, we plot Lukoil time-series. Then, we would like to assess how the stock behaves compared to a short and longer term moving average of its price.
+% insert LUKOIL MA
+\begin{figure}[h]
+\caption{Moving Average of Closing Price of PJSC Lukoil}
+\includegraphics[height=6.5cm]{LUKOIL_MA}
+
+\end{figure}
+
+\clearpage
+
+\subsection {Overview of Moving Averages of the industry}
+For further analysis we decided to explore Moving Average of the companies, representing the industry.
+
+% insert Industry_MA
+\begin{figure}[h]
+\begin{center}
+\caption{Moving Average of Closing Price}
+\includegraphics[height=15cm]{Industry_MA}
+\label{fig:ma2}
+\end{center}
+\end{figure}
+
+\clearpage
+
+\subsection {Analysing Competitors Stocks}
+In this section, we analyse on how one company performs compared to the competitor.  Based on the conducted an analysis, we conclude that there is no relationship between Lukoil returns and Royal Dutch Shell returns. On the other hand, there are positive correlations between Lukoil returns and BP return.
+
+% insert Lukoil vs RDS
+\begin{figure}[h]
+\caption{Returns of Lukoil and Competitorsl}
+\begin{center}
+\includegraphics[scale=0.44]{Lukoil_RDS}
+\includegraphics[scale=0.44]{Lukoil_BP}
+\end{center}
+\label{fig:scat1}
+\end{figure}
+
+To improve analysis we plot scatter matrix to visualise possible correlations, by running Kernel Density Estimate.
+
+% insert scatter matrix
+\begin{figure}[h]
+\caption{Chart of risk and return}
+\begin{center}
+\includegraphics[scale=0.55]{matrix}
+\label{fig:scat2}
+\end{center}
+\end{figure}
+\clearpage
+
+\subsection {Stocks Returns Rate and Risk}
+Furthermore, we evaluate  risks and returns. In this case risks are represented by standard deviation of returns and returns are represented by average of returns.
+Exclude RDS as it distorts the graph.\\
+
+% insert scatter plot RR
+\begin{figure}[h]
+\caption{Risk vs Return}
+\includegraphics[scale=0.65]{return_risk}
+\label{fig:scat4}
+\end{figure}
+
+\subsection {Stock Price prediction}
+Finally we predict monthly stock prices of Lukoil for the next 2 years.
+
+% insert predicted stock prices
+\begin{figure}[h]
+\caption{Predicted Stock Prices for Lukoil}
+\includegraphics[scale=0.85]{Predicted}
+\label{fig:graph}
+\end{figure}
+\clearpage
 
 \section {Cost of Capital}
 According to \cite{DamodaranDark} and \cite{BestPract}, one of the most prominents methods in calculating the cost of equity is the CAPM model, that is being implemented in the current research.
-
-\subsection {Returns Distribution}
 
 In this section we consider the type of the returns' distribution of several companies, as recommended by \cite{Fishman}.
 
@@ -149,6 +225,12 @@ The results of calculations are provided in Table \ref{tab:r_e}.
 
 \clearpage
 \subsection {Findings and Conclusion}
+The conducted research allowed us to analyse oil industry from different aspects. \\
+Having evaluated the stock prices, we conclude that the prices were at lowest in 2016 of all companies.
+At the same time there is a possible correlation between returns on stock prices of oil companies. \\
+The returns of RDS are dramatically higher compared to other companies. \\
+Moreover, Marathon Petroleum stock prices has the highest risk and highest beta. On the other hand, Lukoil, chosen as benchmark company, has relatively low risk and beta and higher returns.\\
+The prective model also showed expected growth in stock prices of Lukoil.
 
 \clearpage
 \newpage
