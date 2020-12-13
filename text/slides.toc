@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Overview}{2}{0}{1}
+\beamer@sectionintoc {2}{Version Control}{4}{0}{2}
+\beamer@sectionintoc {3}{Collaboration Tools}{6}{0}{3}
+\beamer@sectionintoc {4}{Writing with LaTeX}{8}{0}{4}
+\beamer@sectionintoc {5}{Data Management}{10}{0}{5}
+\beamer@sectionintoc {6}{Analysis}{13}{0}{6}
+\beamer@sectionintoc {7}{Visualisation}{15}{0}{7}
+\beamer@sectionintoc {8}{Knowledge Transfer}{18}{0}{8}

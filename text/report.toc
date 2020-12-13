@@ -12,14 +12,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Stocks Returns Rate and Risk}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Stock Price prediction}{6}% 
+\contentsline {subsection}{Stock Price prediction}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Cost of Capital}{8}% 
+\contentsline {section}{Market}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Risk-free rate}{8}% 
+\contentsline {section}{Cost of Capital}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Beta estimation}{11}% 
+\contentsline {subsection}{Risk-free rate}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Cost of Equity}{12}% 
+\contentsline {subsection}{Beta estimation}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Findings and Conclusion}{13}% 
+\contentsline {subsection}{Cost of Equity}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Findings and Conclusion}{15}% 

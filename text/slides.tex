@@ -57,8 +57,8 @@ Also we created a Slack channel and connected it to our Git repository.
 \frametitle{LateX}
 We configurated Sublime Text editor to use LaTeX.\\
 \begin{itemize}
-\item Using Sublime Text and Overleaf, we produced this set of slides as a beamer presentation.
-\item Using Sublime Text and Overleaf, we produced the report (report.tex), that contains a table of contents, figures, tables and bibliography.
+\item Using Sublime Text and TeXShop, we produced this set of slides as a beamer presentation.
+\item Using Sublime Text and TeXShop, we produced the report (report.tex), that contains a table of contents, figures, tables and bibliography.
 \item We elaborated the bibliography, having created an auxiliary file \path{/text/biblio.bib}.
 \end{itemize}
 
@@ -66,7 +66,7 @@ We configurated Sublime Text editor to use LaTeX.\\
 
 \section{Data Management}
 \begin{frame}
-\frametitle{Data management}
+\frametitle{Data management[1/2]}
 For our project we performed a set of calculations in R (\path{/R/oil_stocks.Rproj}).\\
 Specifically we calculated the cost of capital of oil companies with the following steps:
 \begin{itemize}
@@ -77,15 +77,65 @@ Specifically we calculated the cost of capital of oil companies with the followi
 \item Built plots in R
 \item Assembled the findings in LaTeX
 \end{itemize}
-
 \end{frame}
 
-\section{Visualization}
 \begin{frame}
-\frametitle{Visualization}
+\frametitle{Data management[2/2]}
+We also used Python for the analysis of stock prices.\\
+Specifically we provided the overview of the industry stock prices  following the  steps:
+\begin{itemize}
+\item Called the data from Yahoo Finance API, using \emph{yfinance} library. The reasons for this choice of API
+	\begin{itemize}
+	\item free
+	\item  large range of data
+	\item  can be easily integrated into Python
+	\end{itemize}
+\item Uploaded necessary libraries for calling the data, analysis, plotting and prediction
+\item Analysed Stock Prices
+\item Predicted Stock Prices for 2 yaers
+\end{itemize}
 
 \end{frame}
 
+\section{Analysis}
+\begin{frame}
+\frametitle{Analysis}
+The analysis of Stock Prices was carried out in Python, using Jupyter Notebook.\\
+Some of the libraries, that we used were:
+\begin{itemize}
+\item \emph{yfinance} to load data
+\item \emph{prophet}  to predict stock prices, without constructing a sophisticated model
+\item \emph{matplotlib} to plot the results
+\end{itemize}
+\end{frame}
+
+\section{Visualisation}
+\begin{frame}
+\frametitle{Visualisation [1/2]}
+To visualize the data we followed the strategies for effective data visualisation
+\begin{itemize}
+\item Follow Hierarchy of Visual Attention
+\item Split the information to primary and secondary
+\end{itemize}
+The findings were visualised using R-shiny and Jupyter Notebook
+
+%Insert example
+\begin{figure}[!h]
+\includegraphics[scale=0.25]{SNP_SP}
+\label{fig:snp1}
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Visualisation[2/2]}
+Limitations of the project due to Visualisation
+\begin{itemize}
+\item The prices of some companies distorted the graphs dramatically. We had to omit them for a better representation.
+\item The graph on Return deviation of the industry was not included, as it was overwhelmed with colours, that layered on each other.
+\end{itemize}
+\end{frame}
 
 \section{Knowledge Transfer}
 %First slide on Knowledge transfer

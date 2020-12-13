@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.21)  13 DEC 2020 01:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.21)  14 DEC 2020 04:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -130,6 +130,44 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen114
+\ar@mcellbox=\box29
+\extrarowheight=\dimen115
+\NC@list=\toks20
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box30
+)
+\everycr=\toks21
+\minrowclearance=\skip48
+)
+\rownum=\count118
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
@@ -157,7 +195,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count118
+\etb@tempcnta=\count119
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
@@ -170,7 +208,7 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 )))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count119
+\lrq@indent=\count120
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -182,60 +220,60 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count120
-\c@listtotal=\count121
-\c@listcount=\count122
-\c@liststart=\count123
-\c@liststop=\count124
-\c@citecount=\count125
-\c@citetotal=\count126
-\c@multicitecount=\count127
-\c@multicitetotal=\count128
-\c@instcount=\count129
-\c@maxnames=\count130
-\c@minnames=\count131
-\c@maxitems=\count132
-\c@minitems=\count133
-\c@citecounter=\count134
-\c@maxcitecounter=\count135
-\c@savedcitecounter=\count136
-\c@uniquelist=\count137
-\c@uniquename=\count138
-\c@refsection=\count139
-\c@refsegment=\count140
-\c@maxextratitle=\count141
-\c@maxextratitleyear=\count142
-\c@maxextraname=\count143
-\c@maxextradate=\count144
-\c@maxextraalpha=\count145
-\c@abbrvpenalty=\count146
-\c@highnamepenalty=\count147
-\c@lownamepenalty=\count148
-\c@maxparens=\count149
-\c@parenlevel=\count150
-\blx@tempcnta=\count151
-\blx@tempcntb=\count152
-\blx@tempcntc=\count153
-\blx@maxsection=\count154
-\blx@maxsegment@0=\count155
-\blx@notetype=\count156
-\blx@parenlevel@text=\count157
-\blx@parenlevel@foot=\count158
-\blx@sectionciteorder@0=\count159
-\blx@entrysetcounter=\count160
-\labelnumberwidth=\skip46
-\labelalphawidth=\skip47
-\biblabelsep=\skip48
-\bibitemsep=\skip49
-\bibnamesep=\skip50
-\bibinitsep=\skip51
-\bibparsep=\skip52
-\bibhang=\skip53
+\c@tabx@nest=\count121
+\c@listtotal=\count122
+\c@listcount=\count123
+\c@liststart=\count124
+\c@liststop=\count125
+\c@citecount=\count126
+\c@citetotal=\count127
+\c@multicitecount=\count128
+\c@multicitetotal=\count129
+\c@instcount=\count130
+\c@maxnames=\count131
+\c@minnames=\count132
+\c@maxitems=\count133
+\c@minitems=\count134
+\c@citecounter=\count135
+\c@maxcitecounter=\count136
+\c@savedcitecounter=\count137
+\c@uniquelist=\count138
+\c@uniquename=\count139
+\c@refsection=\count140
+\c@refsegment=\count141
+\c@maxextratitle=\count142
+\c@maxextratitleyear=\count143
+\c@maxextraname=\count144
+\c@maxextradate=\count145
+\c@maxextraalpha=\count146
+\c@abbrvpenalty=\count147
+\c@highnamepenalty=\count148
+\c@lownamepenalty=\count149
+\c@maxparens=\count150
+\c@parenlevel=\count151
+\blx@tempcnta=\count152
+\blx@tempcntb=\count153
+\blx@tempcntc=\count154
+\blx@maxsection=\count155
+\blx@maxsegment@0=\count156
+\blx@notetype=\count157
+\blx@parenlevel@text=\count158
+\blx@parenlevel@foot=\count159
+\blx@sectionciteorder@0=\count160
+\blx@entrysetcounter=\count161
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
 \blx@bcfin=\read1
 \blx@bcfout=\write3
-\c@mincomprange=\count161
-\c@maxcomprange=\count162
-\c@mincompwidth=\count163
+\c@mincomprange=\count162
+\c@maxcomprange=\count163
+\c@mincompwidth=\count164
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -246,88 +284,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'bwl-FU.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count164
-\c@savedafterword=\count165
-\c@annotator=\count166
-\c@savedannotator=\count167
-\c@author=\count168
-\c@savedauthor=\count169
-\c@bookauthor=\count170
-\c@savedbookauthor=\count171
-\c@commentator=\count172
-\c@savedcommentator=\count173
-\c@editor=\count174
-\c@savededitor=\count175
-\c@editora=\count176
-\c@savededitora=\count177
-\c@editorb=\count178
-\c@savededitorb=\count179
-\c@editorc=\count180
-\c@savededitorc=\count181
-\c@foreword=\count182
-\c@savedforeword=\count183
-\c@holder=\count184
-\c@savedholder=\count185
-\c@introduction=\count186
-\c@savedintroduction=\count187
-\c@namea=\count188
-\c@savednamea=\count189
-\c@nameb=\count190
-\c@savednameb=\count191
-\c@namec=\count192
-\c@savednamec=\count193
-\c@translator=\count194
-\c@savedtranslator=\count195
-\c@shortauthor=\count196
-\c@savedshortauthor=\count197
-\c@shorteditor=\count198
-\c@savedshorteditor=\count199
-\c@labelname=\count266
-\c@savedlabelname=\count267
-\c@institution=\count268
-\c@savedinstitution=\count269
-\c@lista=\count270
-\c@savedlista=\count271
-\c@listb=\count272
-\c@savedlistb=\count273
-\c@listc=\count274
-\c@savedlistc=\count275
-\c@listd=\count276
-\c@savedlistd=\count277
-\c@liste=\count278
-\c@savedliste=\count279
-\c@listf=\count280
-\c@savedlistf=\count281
-\c@location=\count282
-\c@savedlocation=\count283
-\c@organization=\count284
-\c@savedorganization=\count285
-\c@origlocation=\count286
-\c@savedoriglocation=\count287
-\c@origpublisher=\count288
-\c@savedorigpublisher=\count289
-\c@publisher=\count290
-\c@savedpublisher=\count291
-\c@language=\count292
-\c@savedlanguage=\count293
-\c@origlanguage=\count294
-\c@savedoriglanguage=\count295
-\c@pageref=\count296
-\c@savedpageref=\count297
-\shorthandwidth=\skip54
-\shortjournalwidth=\skip55
-\shortserieswidth=\skip56
-\shorttitlewidth=\skip57
-\shortauthorwidth=\skip58
-\shorteditorwidth=\skip59
-\locallabelnumberwidth=\skip60
-\locallabelalphawidth=\skip61
-\localshorthandwidth=\skip62
-\localshortjournalwidth=\skip63
-\localshortserieswidth=\skip64
-\localshorttitlewidth=\skip65
-\localshortauthorwidth=\skip66
-\localshorteditorwidth=\skip67
+\c@afterword=\count165
+\c@savedafterword=\count166
+\c@annotator=\count167
+\c@savedannotator=\count168
+\c@author=\count169
+\c@savedauthor=\count170
+\c@bookauthor=\count171
+\c@savedbookauthor=\count172
+\c@commentator=\count173
+\c@savedcommentator=\count174
+\c@editor=\count175
+\c@savededitor=\count176
+\c@editora=\count177
+\c@savededitora=\count178
+\c@editorb=\count179
+\c@savededitorb=\count180
+\c@editorc=\count181
+\c@savededitorc=\count182
+\c@foreword=\count183
+\c@savedforeword=\count184
+\c@holder=\count185
+\c@savedholder=\count186
+\c@introduction=\count187
+\c@savedintroduction=\count188
+\c@namea=\count189
+\c@savednamea=\count190
+\c@nameb=\count191
+\c@savednameb=\count192
+\c@namec=\count193
+\c@savednamec=\count194
+\c@translator=\count195
+\c@savedtranslator=\count196
+\c@shortauthor=\count197
+\c@savedshortauthor=\count198
+\c@shorteditor=\count199
+\c@savedshorteditor=\count266
+\c@labelname=\count267
+\c@savedlabelname=\count268
+\c@institution=\count269
+\c@savedinstitution=\count270
+\c@lista=\count271
+\c@savedlista=\count272
+\c@listb=\count273
+\c@savedlistb=\count274
+\c@listc=\count275
+\c@savedlistc=\count276
+\c@listd=\count277
+\c@savedlistd=\count278
+\c@liste=\count279
+\c@savedliste=\count280
+\c@listf=\count281
+\c@savedlistf=\count282
+\c@location=\count283
+\c@savedlocation=\count284
+\c@organization=\count285
+\c@savedorganization=\count286
+\c@origlocation=\count287
+\c@savedoriglocation=\count288
+\c@origpublisher=\count289
+\c@savedorigpublisher=\count290
+\c@publisher=\count291
+\c@savedpublisher=\count292
+\c@language=\count293
+\c@savedlanguage=\count294
+\c@origlanguage=\count295
+\c@savedoriglanguage=\count296
+\c@pageref=\count297
+\c@savedpageref=\count298
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -339,13 +377,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count298
-\c@textcitetotal=\count299
-\c@textcitemaxnames=\count300
-\c@biburlnumpenalty=\count301
-\c@biburlucpenalty=\count302
-\c@biburllcpenalty=\count303
-\c@smartand=\count304
+\c@textcitecount=\count299
+\c@textcitetotal=\count300
+\c@textcitemaxnames=\count301
+\c@biburlnumpenalty=\count302
+\c@biburlucpenalty=\count303
+\c@biburllcpenalty=\count304
+\c@smartand=\count305
 )
 Package biblatex Info: Trying to load bibliography style 'bwl-FU'...
 Package biblatex Info: ... file 'bwl-FU.bbx' found.
@@ -362,8 +400,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count305
-\c@bbx:relatedtotal=\count306
+\c@bbx:relatedcount=\count306
+\c@bbx:relatedtotal=\count307
 )))
 Package biblatex Info: Trying to load citation style 'bwl-FU'...
 Package biblatex Info: ... file 'bwl-FU.cbx' found.
@@ -397,8 +435,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
-\@quotelevel=\count307
-\@quotereset=\count308
+\@quotelevel=\count308
+\@quotereset=\count309
 
 (./report.aux
 
@@ -407,31 +445,31 @@ LaTeX Warning: Label `fig:hist1' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
  (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count309
-\scratchdimen=\dimen114
-\scratchbox=\box29
-\nofMPsegments=\count310
-\nofMParguments=\count311
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count312
-\MPscratchDim=\dimen115
-\MPnumerator=\count313
-\makeMPintoPDFobject=\count314
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count310
+\scratchdimen=\dimen116
+\scratchbox=\box31
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen117
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks23
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -461,8 +499,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' not found.
 
 No file report.bbl.
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -474,13 +512,13 @@ Package biblatex Info: Reference segment=0 on input line 17.
 <LUKOIL_MA.png, id=13, 854.19125pt x 450.68375pt>
 File: LUKOIL_MA.png Graphic file (type png)
 <use LUKOIL_MA.png>
-Package pdftex.def Info: LUKOIL_MA.png  used on input line 56.
+Package pdftex.def Info: LUKOIL_MA.png  used on input line 59.
 (pdftex.def)             Requested size: 350.5335pt x 184.9429pt.
  [3 <./LUKOIL_MA.png>]
 <Industry_MA.png, id=19, 382.42876pt x 637.38126pt>
 File: Industry_MA.png Graphic file (type png)
 <use Industry_MA.png>
-Package pdftex.def Info: Industry_MA.png  used on input line 69.
+Package pdftex.def Info: Industry_MA.png  used on input line 72.
 (pdftex.def)             Requested size: 256.0742pt x 426.79134pt.
  [4
 
@@ -488,111 +526,130 @@ Package pdftex.def Info: Industry_MA.png  used on input line 69.
 <Lukoil_RDS.png, id=24, 399.4925pt x 322.20375pt>
 File: Lukoil_RDS.png Graphic file (type png)
 <use Lukoil_RDS.png>
-Package pdftex.def Info: Lukoil_RDS.png  used on input line 83.
+Package pdftex.def Info: Lukoil_RDS.png  used on input line 86.
 (pdftex.def)             Requested size: 175.77724pt x 141.77008pt.
 <Lukoil_BP.png, id=25, 409.53pt x 321.2pt>
 File: Lukoil_BP.png Graphic file (type png)
 <use Lukoil_BP.png>
-Package pdftex.def Info: Lukoil_BP.png  used on input line 84.
+Package pdftex.def Info: Lukoil_BP.png  used on input line 87.
 (pdftex.def)             Requested size: 180.19376pt x 141.32843pt.
 <matrix.png, id=26, 388.45125pt x 373.395pt>
 File: matrix.png Graphic file (type png)
 <use matrix.png>
-Package pdftex.def Info: matrix.png  used on input line 95.
+Package pdftex.def Info: matrix.png  used on input line 98.
 (pdftex.def)             Requested size: 213.64883pt x 205.36787pt.
  [5
 
  <./Lukoil_RDS.png> <./Lukoil_BP.png> <./matrix.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 <return_risk.png, id=33, 624.3325pt x 499.8675pt>
 File: return_risk.png Graphic file (type png)
 <use return_risk.png>
-Package pdftex.def Info: return_risk.png  used on input line 108.
+Package pdftex.def Info: return_risk.png  used on input line 111.
 (pdftex.def)             Requested size: 405.81133pt x 324.91002pt.
 
-Overfull \hbox (45.81133pt too wide) in paragraph at lines 108--110
+Overfull \hbox (45.81133pt too wide) in paragraph at lines 111--113
 [][]
  []
-
-<Predicted.png, id=34, 538.01pt x 325.215pt>
-File: Predicted.png Graphic file (type png)
-<use Predicted.png>
-Package pdftex.def Info: Predicted.png  used on input line 118.
-(pdftex.def)             Requested size: 457.31065pt x 276.43405pt.
-
-Overfull \hbox (97.31065pt too wide) in paragraph at lines 118--120
-[][]
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6
 
- <./return_risk.png>] [7 <./Predicted.png>]
+ <./return_risk.png>]
+<Predicted.png, id=38, 538.01pt x 325.215pt>
+File: Predicted.png Graphic file (type png)
+<use Predicted.png>
+Package pdftex.def Info: Predicted.png  used on input line 122.
+(pdftex.def)             Requested size: 349.70235pt x 211.38724pt.
+ [7
 
-LaTeX Warning: Citation 'DamodaranDark' on page 8 undefined on input line 124.
+ <./Predicted.png>]
+Overfull \hbox (69.48874pt too wide) in paragraph at lines 134--146
+ [] 
+ []
+
+<sandp.jpg, id=44, 2203.23125pt x 1630.09pt>
+File: sandp.jpg Graphic file (type jpg)
+<use sandp.jpg>
+Package pdftex.def Info: sandp.jpg  used on input line 158.
+(pdftex.def)             Requested size: 374.54436pt x 277.11163pt.
+
+Overfull \hbox (14.54436pt too wide) in paragraph at lines 158--160
+[][]
+ []
 
 
-LaTeX Warning: Citation 'BestPract' on page 8 undefined on input line 124.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8
+
+] [9 <./sandp.jpg>]
+
+LaTeX Warning: Citation 'DamodaranDark' on page 10 undefined on input line 165.
 
 
-LaTeX Warning: Citation 'Fishman' on page 8 undefined on input line 126.
 
-<snp_hist.jpeg, id=44, 528.97626pt x 388.45125pt>
+LaTeX Warning: Citation 'BestPract' on page 10 undefined on input line 165.
+
+
+LaTeX Warning: Citation 'Fishman' on page 10 undefined on input line 167.
+
+<snp_hist.jpeg, id=53, 528.97626pt x 388.45125pt>
 File: snp_hist.jpeg Graphic file (type jpg)
 <use snp_hist.jpeg>
-Package pdftex.def Info: snp_hist.jpeg  used on input line 131.
+Package pdftex.def Info: snp_hist.jpeg  used on input line 172.
 (pdftex.def)             Requested size: 343.83049pt x 252.49031pt.
-<LUKOIL_hist.jpeg, id=45, 528.97626pt x 388.45125pt>
+<LUKOIL_hist.jpeg, id=54, 528.97626pt x 388.45125pt>
 File: LUKOIL_hist.jpeg Graphic file (type jpg)
 <use LUKOIL_hist.jpeg>
-Package pdftex.def Info: LUKOIL_hist.jpeg  used on input line 138.
+Package pdftex.def Info: LUKOIL_hist.jpeg  used on input line 179.
 (pdftex.def)             Requested size: 343.83049pt x 252.49031pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[10
 
-LaTeX Warning: Citation 'Anderson' on page 8 undefined on input line 146.
+ <./snp_hist.jpeg>] [11 <./LUKOIL_hist.jpeg>]
 
-<risk_free.jpg, id=46, 1483.5425pt x 1224.575pt>
+LaTeX Warning: Citation 'Anderson' on page 12 undefined on input line 187.
+
+<risk_free.jpg, id=61, 1483.5425pt x 1224.575pt>
 File: risk_free.jpg Graphic file (type jpg)
 <use risk_free.jpg>
-Package pdftex.def Info: risk_free.jpg  used on input line 151.
+Package pdftex.def Info: risk_free.jpg  used on input line 192.
 (pdftex.def)             Requested size: 370.88472pt x 306.143pt.
 
-Overfull \hbox (10.88472pt too wide) in paragraph at lines 151--153
+Overfull \hbox (10.88472pt too wide) in paragraph at lines 192--194
 [][]
  []
 
-[8
+[12
 
- <./snp_hist.jpeg>] [9 <./LUKOIL_hist.jpeg>] [10 <./risk_free.jpg>]
+ <./risk_free.jpg>]
 
-LaTeX Warning: Citation 'Casey' on page 11 undefined on input line 160.
+LaTeX Warning: Citation 'Casey' on page 13 undefined on input line 201.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--163
+Underfull \hbox (badness 10000) in paragraph at lines 201--204
 
  []
 
-<beta_plot_bars.jpeg, id=56, 528.97626pt x 388.45125pt>
+<beta_plot_bars.jpeg, id=65, 528.97626pt x 388.45125pt>
 File: beta_plot_bars.jpeg Graphic file (type jpg)
 <use beta_plot_bars.jpeg>
-Package pdftex.def Info: beta_plot_bars.jpeg  used on input line 189.
+Package pdftex.def Info: beta_plot_bars.jpeg  used on input line 230.
 (pdftex.def)             Requested size: 343.83049pt x 252.49031pt.
-[11
+[13
 
- <./beta_plot_bars.jpeg>] [12
+ <./beta_plot_bars.jpeg>] [14
 
-] [13
+] [15
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 237.
+LaTeX Warning: Empty bibliography on input line 278.
 
 (./report.aux)
 
@@ -611,13 +668,13 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 8931 strings out of 492616
- 156818 string characters out of 6129480
- 580628 words of memory out of 5000000
- 12758 multiletter control sequences out of 15000+600000
+ 9526 strings out of 492616
+ 163761 string characters out of 6129480
+ 597570 words of memory out of 5000000
+ 13336 multiletter control sequences out of 15000+600000
  10307 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,34p,822b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,35p,822b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -625,10 +682,10 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (13 pages, 1720570 bytes).
+Output written on report.pdf (15 pages, 2039823 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
