@@ -9,7 +9,7 @@ Final Project
 
 15. December 2020
 
-* The description of the project can be found in /text/slides.pdf
+* The description of the project can be found in [/text/slides.pdf](text/slides.pdf)
 
 * R-shiny app can be launched via:
 
